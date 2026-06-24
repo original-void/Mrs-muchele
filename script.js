@@ -6,13 +6,13 @@ const BOT_NUMBER = '254112843071'
 
 // YOUR FIREBASE CONFIG
 const firebaseConfig = {
-  apiKey: "AIzaSyA3ubu0toy8_Ot4aiVrBI4QM3WBbpn5Bjs",
-  authDomain: "void-birthday.firebaseapp.com",
-  databaseURL: "https://void-birthday-default-rtdb.firebaseio.com",
-  projectId: "void-birthday",
-  storageBucket: "void-birthday.firebasestorage.app",
-  messagingSenderId: "45651869948",
-  appId: "1:45651869948:web:f7428bf4f0dad35f4e9779"
+  apiKey: "AIzaSyCgk8CtTzK9veFLF9BgHSQl3D56GaN4wws",
+  authDomain: "jujo-4f957.firebaseapp.com",
+  databaseURL: "https://jujo-4f957-default-rtdb.firebaseio.com",
+  projectId: "jujo-4f957",
+  storageBucket: "jujo-4f957.firebasestorage.app",
+  messagingSenderId: "928077607914",
+  appId: "1:928077607914:web:cf04ad65cc04a840b93893"
 };
 
 // Initialize Firebase
