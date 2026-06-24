@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:title" content="MRS MICHELLE TURNS 18 💀">
+    <meta property="og:description" content="August 29th 2026 - Drop a wish for the GOAT">
+    <meta property="og:image" content="void.jpg">
+    <title>MRS MICHELLE B-DAY 💀</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="bgMusic" loop>
+        <source src="https://files.catbox.moe/ravq5h.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="music-toggle" onclick="toggleMusic()">🔇</div>
+    <div class="stars"></div>
+    <div id="confetti"></div>
+
+    <div class="container">
+        <h1 class="glitch" data-text="MRS MICHELLE">MRS MICHELLE</h1>
+        <h2 class="fullname">(MRS MICHELLE)</h2>
+        <div class="cake">🎂</div>
+        <h2 class="age">TURNS <span id="age">18</span></h2>
+        <h3 class="date">AUGUST 29TH 2026</h3>
+
+        <div class="countdown" id="countdown">
+            <div><span id="days">00</span><label>DAYS</label></div>
+            <div><span id="hours">00</span><label>HOURS</label></div>
+            <div><span id="mins">00</span><label>MINS</label></div>
+            <div><span id="secs">00</span><label>SECS</label></div>
+        </div>
+
+        <div class="info">
+            <p>🤖 VOID-MD ASSISTANCE CREATOR</p>
+            <p>💀 WhatsApp Bot Dev</p>
+            <p id="status">BOT STATUS: <span style="color:#0f0">ONLINE 💀</span></p>
+        </div>
+
+        <button class="wish-btn" onclick="dropWish()">DROP A WISH 💀</button>
+        <div id="wishCount">WISHES: 0</div>
+
+        <div class="profile-section">
+            <h3>MRS MICHELLE  💀</h3>
+            <div class="pic-preview">
+                <img src="void.jpg" alt="MRS MICHELLE ">
+            </div>
+        </div>
+
+        <div class="guestbook">
+            <h3>GUESTBOOK 💀</h3>
+            <input type="text" id="guestName" placeholder="Your name" maxlength="20">
+            <textarea id="guestMsg" placeholder="Drop your birthday wish..." maxlength="100"></textarea>
+            <button onclick="addWish()">SIGN GUESTBOOK</button>
+            <div id="wishesList"></div>
+        </div>
+        
+        <div class="footer">© POWERED BY EZED NYANUGA | HAPPY BIRTHDAY MRS MICHELLE IN ADVANCE 🎂</div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
